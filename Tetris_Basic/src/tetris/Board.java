@@ -22,6 +22,7 @@ public class Board extends JPanel implements ActionListener {
 	final int BoardWidth = 10;
 	final int BoardHeight = 22;
 
+	// Timer for falling pieces
 	Timer timer;
 	boolean isFallingFinished = false;
 	boolean isStarted = false;
